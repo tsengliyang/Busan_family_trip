@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>釜山 5 天行程 2026/11/17–11/21</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf5e6;--card:#fffdf7;--ink:#2d2b27;--muted:#7f7b70;--line:#eee5cf;--shadow:0 8px 24px rgba(90,80,40,.07);
+  --serif:"Noto Serif TC","Songti TC","Source Han Serif TC","PMingLiU",serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",-apple-system,BlinkMacSystemFont,sans-serif;
+  --tw:3.75rem;--gap:.75rem;--rail:14px;color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 var(--sans);letter-spacing:.01em;-webkit-text-size-adjust:100%}
+.wrap{max-width:46rem;margin:0 auto;padding:2.25rem 1rem 3.5rem}
+header{display:flex;align-items:baseline;gap:.9rem;flex-wrap:wrap;margin-bottom:1.25rem}
+header h1{margin:0;font:700 clamp(2rem,7vw,2.5rem)/1.2 var(--serif);letter-spacing:.1em}
+header p{margin:0;color:var(--muted);font-size:.9375rem}
+.info{background:var(--card);border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);overflow:hidden;margin:0 0 1rem}
+.ih{background:#f5edd8;padding:.95rem 1.1rem}
+.ih h2{margin:0;font:700 1.125rem/1.4 var(--serif);letter-spacing:.06em}
+.rows{padding:.3rem 1.1rem .7rem}
+.row{display:grid;grid-template-columns:var(--tw) 1fr;column-gap:var(--gap);padding:.75rem 0;border-top:1px dashed var(--line);font-size:.9375rem}
+.row:first-child{border-top:0}
+.row>i{font-style:normal;color:var(--muted);font-variant-numeric:tabular-nums}
+.row>div{min-width:0}
+.row b{font-weight:700;font-size:1rem}
+.row .sub{display:block;color:var(--muted)}
+.row .top2{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem}
+.rows .nt{margin:.2rem 0 0;padding-top:.7rem;border-top:1px dashed var(--line);color:var(--muted);font-size:.8125rem}
+.map{flex:none;display:inline-flex;align-items:center;height:1.65rem;padding:0 .75rem;border:1px solid var(--line);border-radius:999px;font-size:.8125rem;color:var(--ink);text-decoration:none;background:var(--bg)}
+.map:hover{background:#fff}
+.map:focus-visible,nav a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);padding:.65rem 0;margin:.4rem 0 .9rem;display:flex;gap:.5rem;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:1 0 auto;display:flex;align-items:center;justify-content:center;gap:.45rem;height:2.5rem;padding:0 1rem;background:var(--card);border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-size:.9375rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+nav a i{width:.6rem;height:.6rem;border-radius:50%;background:var(--c)}
+nav a.on{background:var(--cs);border-color:var(--c);font-weight:500}
+section{background:var(--card);border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);margin:0 0 1.5rem;overflow:hidden;scroll-margin-top:4.5rem}
+.dh,.st li{display:grid;grid-template-columns:var(--tw) var(--rail) 1fr;column-gap:var(--gap)}
+.dh{background:var(--cs);padding:1.2rem 1rem 1.1rem;align-items:start}
+.date{grid-column:1;grid-row:1 / span 3;background:var(--card);border-radius:20px;text-align:center;padding:.5rem 0 .55rem;line-height:1.2}
+.date small{display:block;font-size:.75rem;color:var(--muted)}
+.date b{display:block;font:700 1.875rem/1.15 var(--serif);font-variant-numeric:tabular-nums}
+.dh h2{grid-column:3;margin:0;font:700 1.375rem/1.4 var(--serif);letter-spacing:.03em}
+.dh p{grid-column:3;margin:.25rem 0 0;font-size:.9375rem;color:#55524a}
+.dh .drv{justify-self:start;margin-top:.6rem;padding:.1rem .75rem;border-radius:999px;background:rgba(255,253,247,.75);color:var(--ink);font-size:.8125rem}
+.st{list-style:none;margin:0;padding:1.25rem 1rem .9rem}
+.st li{align-items:start}
+.t{font:500 .9375rem/1.7 var(--sans);color:var(--muted);font-variant-numeric:tabular-nums}
+.rail{position:relative;align-self:stretch}
+.rail::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--c);opacity:.35}
+.rail::after{content:"";position:absolute;left:50%;top:.45rem;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--card);border:3px solid var(--c)}
+.st li:first-child .rail::before{top:.85rem}
+.st li:last-child .rail::before{bottom:auto;height:.85rem;top:0}
+.bd{padding-bottom:1.2rem;min-width:0}
+.st li:last-child .bd{padding-bottom:.2rem}
+.nm{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem}
+.nm strong{font-weight:700;font-size:1.0625rem;line-height:1.7;overflow-wrap:anywhere}
+.bd p{margin:0;color:var(--muted);font-size:.9375rem}
+.leg{display:inline-block;margin-top:.5rem;padding:0 .7rem;border-radius:999px;background:var(--cs);color:#55524a;font-size:.78rem;line-height:1.7}
+#toast{position:fixed;left:50%;bottom:1rem;transform:translateX(-50%);width:min(92vw,32rem);background:var(--ink);color:var(--bg);border-radius:16px;padding:.8rem 1rem;font-size:.875rem;z-index:20;display:none;word-break:break-all}
+#toast.on{display:block}
+footer{color:var(--muted);font-size:.875rem;text-align:center;margin-top:2rem}
+@media (max-width:34rem){:root{--tw:3.25rem;--gap:.6rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>釜山</h1>
+  <p>5 天 4 夜,2026/11/17(二)至 11/21(六)</p>
+</header>
+
+<div class="info">
+  <div class="ih"><h2>航班</h2></div>
+  <div class="rows">
+    <div class="row"><i>去程</i><div><b>JX310</b>　11/17(二)8:00 起飛 - 11:15 抵達<span class="sub">釜山金海國際機場</span></div></div>
+    <div class="row"><i>回程</i><div><b>JX903</b>　11/21(六)18:55 起飛 - 20:40 抵達<span class="sub">釜山金海國際機場</span></div></div>
+  </div>
+</div>
+
+<div class="info">
+  <div class="ih"><h2>住宿</h2></div>
+  <div class="rows">
+    <div class="row"><i>房源</i><div><div class="top2"><b>Brown Suites Busan</b><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/Brown%20Suites%20Busan/@35.1165422,129.0459399,17z">地圖</a></div><span class="sub">160 Chungjang-daero, HyupSung Marina G7, 釜山 48751</span></div></div>
+    <div class="row"><i>入住</i><div>11/17(二)16:00 起,智慧鎖進房</div></div>
+    <div class="row"><i>退房</i><div>11/21(六)11:00 前</div></div>
+    <div class="row"><i>訂單</i><div><a class="map" target="_blank" rel="noopener" href="https://www.airbnb.com.tw/trips/v1/1716600722196192220/ro/RESERVATION2_CHECKIN/HMNNR9XTFX?confirmationCode=HMNNR9XTFX&reservationType=STAY&joinSuccess=true">Airbnb 訂單</a></div></div>
+  </div>
+</div>
+
+<div class="info">
+  <div class="ih"><h2>五天包車</h2></div>
+  <div class="rows">
+    <div class="row"><i>11/17</i><div>金海機場接機,出關後與司機會合,請先確認會合地點與聯絡方式。</div></div>
+    <div class="row"><i>11/18</i><div>慶州單程約 1 小時 10 分,全日車程約 4 小時 15 分,是最長的一天。</div></div>
+    <div class="row"><i>11/19</i><div>東萊、釜田、西面,全日車程約 2 小時。</div></div>
+    <div class="row"><i>11/20</i><div>海雲臺一帶,全日車程約 2 小時。</div></div>
+    <div class="row"><i>11/21</i><div>15:15 從松島出發,約 16:00 抵達機場送機。</div></div>
+    <p class="nt">車程為依座標估算的粗估值,實際依路況與司機路線為準。景點的停車與上下客位置,請事先和司機約好。</p>
+  </div>
+</div>
+
+<nav id="nav" aria-label="日期"></nav>
+<main id="days"></main>
+<div id="toast" role="status"></div>
+<footer>時間皆為建議,營業時間與最後入場時間請出發前再確認。</footer>
+</div>
+
+<script>
+const HT=[129.0459399,35.1165422], AP=[128.9471783,35.1728688];
+const C='車程約 ', W='步行約 ';
+// 每站:[時間, 名稱, 說明, 座標, 往下一站的交通]
+const D=[
+{c:'#e2b94a',cs:'#fbeab8',m:11,date:17,wd:'週二',title:'第一天 抵達與南浦洞',drv:'車程合計約 1.5 小時',
+ note:'先換錢,再逛市場。南浦洞一帶可以步行。',
+ s:[
+ ['11:15','釜山金海國際機場','JX310 抵達,辦理入境與領行李,包車接機。',0,C+'35 分'],
+ ['13:15','友利換錢所','先換好韓圜,後面逛市場才有現金。',[129.0354813,35.0989554],C+'15 分'],
+ ['14:00','Brown Suites Busan','先寄放行李,16:00 後才能入住。房源標題有標示行李保管,建議先和房東確認。',HT,W+'10 分'],
+ ['14:30','草梁傳統市場','飯店附近。',[129.0397222,35.1180556],C+'15 分'],
+ ['15:30','札嘎其市場','海鮮市場,可安排早一點的晚餐。',[129.0307965,35.0966339],W+'5 分'],
+ ['16:30','南浦洞','商圈散步、小吃與購物。',[129.0303631,35.0974206],W+'5 分'],
+ ['17:30','BIFF 廣場','',[129.029212,35.098243],W+'5 分'],
+ ['18:15','國際市場','',[129.0281978,35.1013575],W+'5 分'],
+ ['19:15','富平罐頭市場','夜市氣氛,吃宵夜。',[129.0258719,35.101854],C+'15 分回飯店']
+ ]},
+{c:'#e39a8a',cs:'#fbdcd3',m:11,date:18,wd:'週三',title:'第二天 慶州',drv:'車程合計約 4 小時 15 分',
+ note:'全程最長的一天。先去離釜山最近的佛國寺和石窟庵,再往北到良洞,傍晚回市區,動線最順。',
+ s:[
+ ['07:45','從飯店出發','',0,C+'1 小時 10 分'],
+ ['09:00','佛國寺','',[129.3318909,35.7898804],C+'10 分'],
+ ['10:30','石窟庵','',[129.3503599,35.7951981],C+'30 分'],
+ ['12:15','전주가 豆腐料理','午餐。',[129.2624107,35.8516173],C+'30 分'],
+ ['14:00','良洞民俗村','在市區北邊,建議預留約 2 小時。',[129.2543614,35.9968984],C+'40 分'],
+ ['16:40','大陵苑','',[129.2108206,35.8381282],W+'3 分'],
+ ['17:30','皇理團路','',[129.209724,35.8376609],W+'2 分'],
+ ['18:15','향화정 Hyanghwajeong','晚餐。',[129.2091935,35.8380098],C+'1 小時 15 分回釜山']
+ ]},
+{c:'#9bb67a',cs:'#e3edd2',m:11,date:19,wd:'週四',title:'第三天 東萊與西面',drv:'車程合計約 2 小時',
+ note:'由北往南,從梵魚寺一路走到西面。',
+ s:[
+ ['08:20','從飯店出發','',0,C+'35 分'],
+ ['09:00','梵魚寺','在金井山,建議預留約 2 小時。',[129.0687639,35.2839899],C+'25 分'],
+ ['11:45','大創 釜山東萊站分店','다이소 부산동래역점',[129.0774956,35.2027116],C+'20 分'],
+ ['12:45','釜田市場','午餐。',[129.0613381,35.1627269],C+'10 分'],
+ ['14:15','田浦咖啡街','',[129.0673266,35.155399],C+'10 分'],
+ ['16:00','西面市場','',[129.0581664,35.1557374],W+'5 分'],
+ ['17:00','大創 釜山西面2號店','',[129.0589057,35.1548047],''],
+ ['18:00','西面晚餐','自由安排,結束後包車回飯店,約 25 分。',0,'']
+ ]},
+{c:'#7fb0c8',cs:'#d9e9f2',m:11,date:20,wd:'週五',title:'第四天 海雲臺一帶',drv:'車程合計約 2 小時',
+ note:'由東邊往西邊移動,最後在 Centum City 泡湯。',
+ s:[
+ ['08:30','從飯店出發','',0,C+'30 分'],
+ ['09:00','海東龍宮寺','',[129.2231109,35.1884543],C+'10 分'],
+ ['10:45','斜坡滑車','',[129.2188408,35.1939847],C+'10 分'],
+ ['12:30','LOTTE MART 東釜山','午餐與採買。',[129.2114355,35.1923689],C+'20 分'],
+ ['14:30','海雲臺藍線公園 尾浦站','可搭膠囊列車往下一站,請和司機約好在終點站接駁。',[129.1727672,35.158284],'膠囊列車'],
+ ['15:15','Sky Capsule 膠囊列車','',[129.1915668,35.1613175],C+'20 分'],
+ ['17:30','SPA LAND Centum City 汗蒸幕','放鬆泡湯,結束一天。',[129.1295279,35.1682338],C+'30 分回飯店']
+ ]},
+{c:'#a995c9',cs:'#e8e0f3',m:11,date:21,wd:'週六',title:'第五天 甘川洞、松島與送機',drv:'車程合計約 1 小時 15 分',
+ note:'18:55 的航班要抓好時間。退房後行李可以放包車上,請先和司機確認後車廂空間。',
+ s:[
+ ['08:45','退房出發','最晚 11:00 前退房。',HT,C+'20 分'],
+ ['09:30','甘川洞小王子','文化村,坡道多,穿好走的鞋。',[129.0085398,35.0977429],C+'15 分'],
+ ['12:30','松島海上纜車','Songdo Bay Station',[129.0236199,35.0763876],W+'5 分'],
+ ['14:00','松島雲端步道','',[129.0215731,35.0759423],C+'40 分'],
+ ['15:15','前往金海機場','預留交通與塞車的緩衝。',0,''],
+ ['16:00','釜山金海國際機場','建議此時抵達,辦理登機與退稅。',AP,''],
+ ['18:55','JX903 起飛','返回臺灣。',0,'']
+ ]}
+];
+// 地圖搜尋用名稱(沒列出的就用顯示名稱),座標只用來把搜尋範圍限定在景點附近
+const Q={'釜山金海國際機場':'金海國際機場','大創 釜山東萊站分店':'다이소 부산동래역점','大創 釜山西面2號店':'다이소 서면',
+'甘川洞小王子':'감천문화마을 어린왕자','松島海上纜車':'Songdo Bay Station Songdo Cable Car','SPA LAND Centum City 汗蒸幕':'Spa Land Centum City',
+'佛國寺':'佛國寺 慶州','石窟庵':'石窟庵 慶州','大陵苑':'大陵苑 慶州','退房出發':'Brown Suites Busan'};
+const nav=document.getElementById('nav'),root=document.getElementById('days');
+D.forEach((d,i)=>{
+  const id='d'+(i+1);
+  nav.insertAdjacentHTML('beforeend',`<a href="#${id}" data-d="${id}" style="--c:${d.c};--cs:${d.cs}"><i></i>第${'一二三四五'[i]}天 ${d.m}/${d.date}</a>`);
+  const items=d.s.map(([t,n,desc,c,leg])=>{
+    const link=c?`<a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${encodeURIComponent(Q[n]||n)}/@${c[1]},${c[0]},17z">地圖</a>`:'';
+    return `<li><span class="t">${t}</span><span class="rail"></span><div class="bd"><div class="nm"><strong>${n}</strong>${link}</div>${desc?`<p>${desc}</p>`:''}${leg?`<span class="leg">${leg}</span>`:''}</div></li>`;
+  }).join('');
+  root.insertAdjacentHTML('beforeend',`<section id="${id}" style="--c:${d.c};--cs:${d.cs}"><div class="dh"><div class="date"><small>${d.m}月</small><b>${d.date}</b><small>${d.wd}</small></div><h2>${d.title}</h2><p>${d.note}</p><p class="drv">${d.drv}</p></div><ol class="st">${items}</ol></section>`);
+});
+// 捲動時標示目前是第幾天
+if('IntersectionObserver' in window){
+  const links=[...nav.querySelectorAll('a')];
+  const io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.dataset.d===e.target.id));
+      const on=nav.querySelector('a.on');if(on)nav.scrollTo({left:on.offsetLeft-16,behavior:'smooth'});}
+  }),{rootMargin:'-25% 0px -65% 0px'});
+  root.querySelectorAll('section').forEach(s=>io.observe(s));
+}
+const toast=document.getElementById('toast');let tt;
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a.map');if(!a)return;
+  e.preventDefault();
+  let w=null;
+  try{w=window.open(a.href,'_blank');if(w)w.opener=null;}catch(_){}
+  if(w)return;
+  try{navigator.clipboard.writeText(a.href).catch(()=>{});}catch(_){}
+  toast.textContent='此環境擋住了外部連結,請把網址貼到瀏覽器開啟:'+a.href;
+  toast.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('on'),9000);
+});
+</script>
+</body>
+</html>
